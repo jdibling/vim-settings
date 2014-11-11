@@ -29,5 +29,6 @@ execute pathogen#infect()
 
 let g:solarized_termcolors=256
 set background=dark
-color jellybeans
+color mrkn256
+
 
