@@ -3,7 +3,7 @@ set nocompatible
 set nu
 set nowrap
 
-set makeprg=ninja\ -j\ 20\ -C\ ~/build/current/
+set makeprg=ninja\ -j\ 20\ -C\ $(git\ rev-parse\ --show-toplevel)/build
 set autowrite
 
 set tabstop=2 
