@@ -13,3 +13,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "/home/john/.vim/bundle/vim-windowswap"]
+	path = /home/john/.vim/bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap
