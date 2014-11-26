@@ -1,2 +1,6 @@
 # 3rd party stuff too big to push
-3party/libclang.so
+#
+
+#YouCCompleteMe artifacts
+bundle/YouCompleteMe/*
+bundle/YouCompleteMe

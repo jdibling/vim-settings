@@ -16,3 +16,6 @@
 [submodule "/home/john/.vim/bundle/vim-windowswap"]
 	path = /home/john/.vim/bundle/vim-windowswap
 	url = https://github.com/wesQ3/vim-windowswap
+[submodule "bundle/vim-windowswap"]
+	path = bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap.git
