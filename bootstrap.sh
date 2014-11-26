@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git submodule init --recursive
-git submodule update --recursive
+git submodule update --init --recursive
 
 #
 # Install YouCompleteMe and dependant libs
@@ -10,5 +9,6 @@ echo "Installing YouCompleteMe..."
 cd bundle/YouCompleteMe
 ./install.sh --clang-completer
 cd ../..
-ln -s `pwd`/3rdparty/libclang.so-RHEL6 `pwd`/bundle/YouCompleteMe/third_party/ycmd/libclang.so
+# if you have libclang available, this step is not needed
+# ln -s `pwd`/3rdparty/libclang.so-RHEL6 `pwd`/bundle/YouCompleteMe/third_party/ycmd/libclang.so
 
