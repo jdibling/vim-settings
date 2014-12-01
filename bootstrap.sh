@@ -21,3 +21,10 @@ ln -s `pwd`/3rdparty/libclang.so-RHEL6 `pwd`/bundle/YouCompleteMe/third_party/yc
 # if you have libclang available, this step is not needed
 # ln -s `pwd`/3rdparty/libclang.so-RHEL6 `pwd`/bundle/YouCompleteMe/third_party/ycmd/libclang.so
 
+# Update the user's vimrc
+if [ -f ~/.vimrc ]
+then
+    mv ~/.vimrc ~/.vimrc-save-`date +"%m%d%Y"`
+fi
+
+ln -s vimrc ~/.vimrc
