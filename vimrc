@@ -31,4 +31,7 @@ let g:solarized_termcolors=256
 set background=dark
 color mrkn256
 
+" YouCompleteMe options
+let g:ycm_confirm_extra_conf = 0
+
 
