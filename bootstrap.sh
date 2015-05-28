@@ -8,4 +8,4 @@ then
     mv ~/.vimrc ~/.vimrc-save-`date +"%m%d%Y"`
 fi
 
-ln -s vimrc ~/.vimrc
+ln -s $(readlink -f ./vimrc) ~/.vimrc
